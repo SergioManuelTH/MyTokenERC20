@@ -1,0 +1,22 @@
+{
+  "name": "mytoken",
+  "version": "1.0.0",
+  "description": "new token SERCOIN",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergioManuelTH/myToken.git"
+  },
+  "author": "sergio manuel torrecilla herrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergioManuelTH/myToken/issues"
+  },
+  "homepage": "https://github.com/SergioManuelTH/myToken#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.0.41-1"
+  }
+}
