@@ -1,5 +1,5 @@
-const myTokenERC20 = artifacts.require("myTokenERC20");
+const MyTokenERC20 = artifacts.require("MyTokenERC20");
 
 module.exports = function(deployer) {
-  deployer.deploy(myTokenERC20,"STHCOIN","STH",8,500); //si el contructor del contrato tiene args de entrada: deployer.deploy(Hello,'arg1', ..)
+  deployer.deploy(MyTokenERC20,"BBCOIN","BB",2,666,{from:'0xbDE72108B5018A345F0F1e38cf2a3f0577Eb98Ac'}); 
 };

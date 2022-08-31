@@ -45,8 +45,8 @@
 // const { MNEMONIC, PROJECT_ID } = process.env;
 
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-//privateKeys = [alice,bob]; metamask rinkeby testnet
-const privateKeys =['0xaf403939045fa47982d3a217a250e8f5ad2b557080fa47e2ab85a16d978047e7','0xe3effee678427170244090cf2597f1349ceee9a9c0dc3f5930d3eefdd6139800'];
+//privateKeys = [alice,bob,mary]; metamask rinkeby testnet
+const privateKeys =['0xaf403939045fa47982d3a217a250e8f5ad2b557080fa47e2ab85a16d978047e7','0xe3effee678427170244090cf2597f1349ceee9a9c0dc3f5930d3eefdd6139800','0x6151df2fe4bbc7bccc924a96a4af55f7feabc1ad0e35181af845d25964566602'];
 
 module.exports = {
   /**
