@@ -21,7 +21,7 @@ contract MyTokenERC20{
     }  
 
     function transfer(address to, uint256 value) public returns(bool success){
-        require(balanceOf[msg.sender] >= value, "Insuficient balance from owner");
+        require(balanceOf[msg.sender] >= value, "Insufficient balance from owner");
         balanceOf[msg.sender] -= value;
         balanceOf[to] += value;
         emit Transfer(msg.sender,to,value);
@@ -35,7 +35,7 @@ contract MyTokenERC20{
     }
 
     function transferFrom(address from, address to, uint256 value) public returns (bool success){
-        require(balanceOf[from] >= value, "Insuficient balance from address allowed");
+        require(balanceOf[from] >= value, "Insufficient balance from address allowed");
         require(allowance[from][msg.sender]>= value);
         balanceOf[from] -= value;
         balanceOf[to] += value;

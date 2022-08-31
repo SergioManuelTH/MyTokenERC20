@@ -9,15 +9,15 @@ contract("Testing myTokenERC20", (accounts) => {
 
   
     context('Constructor', async () => {
-        it('Testing name=BBCOIN', async () => {
+        it('Testing name=SERCOIN', async () => {
             const myTokenInstance = await MyTokenERC20.deployed();
             const name = await myTokenInstance.name();
-            expect(name).to.equal('BBCOIN');
+            expect(name).to.equal('SERCOIN');
         });
-        it('Testing symbol=BB', async () => {
+        it('Testing symbol=STH', async () => {
             const myTokenInstance = await MyTokenERC20.deployed();
             const symbol = await myTokenInstance.symbol();
-            expect(symbol).to.equal('BB');
+            expect(symbol).to.equal('STH');
         });
         it('Testing decimals=2', async () => {
             const myTokenInstance = await MyTokenERC20.deployed();
